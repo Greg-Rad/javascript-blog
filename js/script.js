@@ -1,6 +1,7 @@
 'use strict';
 
 function titleClickHandler(event){
+  const clikedElement = this;
   console.log('Link was clicked!');
   console.log(event);
 
@@ -12,6 +13,9 @@ for(let activeLink of activeLinks){
 }
 
   /* add class 'active' to the clicked link */
+  for(let activeLink of activeLinks){
+    activeLink.classList.add('active');
+    console.log('clickedElement (with plus): ' + clickedElement);
 
   /* remove class 'active' from all articles */
   const activeArticles = document.querySelectorAll('a.active');
@@ -31,4 +35,5 @@ const links = document.querySelectorAll('.titles a');
 
 for(let link of links){
   link.addEventListener('click', titleClickHandler);
+}
 }

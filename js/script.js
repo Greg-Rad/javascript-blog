@@ -22,4 +22,11 @@ function titleClickHandler(event) {
   for(let activeArticle of activeArticles){
     activeArticle.classList.remove('active');
   }
+  
 }
+const articleSelector = document.getElementById('article-1');
+article = clickedElement.getAttribute('#article-1');
+console.log(articleSelector);
+
+
+

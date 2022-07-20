@@ -24,9 +24,9 @@ function titleClickHandler(event) {
   }
   
 }
-const articleSelector = document.getElementById('article-1');
-article = clickedElement.getAttribute('#article-1');
-console.log(articleSelector);
+const articleSelector = clickedElement.getAttribute('href');
+href = element.getAttribute('#article-')
+console.log(articleSelector, 'clickedElement');
 
 
 

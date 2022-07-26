@@ -25,8 +25,14 @@ function titleClickHandler(event) {
   
 }
 const articleSelector = clickedElement.getAttribute('href');
-href = element.getAttribute('#article-')
-console.log(articleSelector, 'clickedElement');
+console.log(articleSelector);
+const targetArticle = document.querySeletor(articleSelector);
+console.log(targetArticle);
+targetArticle.classList('active');
+clickedElement.targetArticle.add('active');
+
+
+
 
 
 

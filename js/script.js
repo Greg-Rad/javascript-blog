@@ -29,8 +29,7 @@ console.log(articleSelector);
 const targetArticle = document.querySeletor(articleSelector);
 console.log(targetArticle);
 targetArticle.classList('active');
-clickedElement.targetArticle.add('active');
-
+targetArticle.classList.add('active');
 
 
 
